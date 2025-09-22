@@ -1,0 +1,190 @@
+body{
+    background-color: rgb(54, 67, 78);
+}
+.container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    min-width: 250px;
+    flex-wrap: wrap;
+}
+
+.num-card{
+    width: 200px;
+    height: 200px;
+    background-color: chocolate;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.prompt-text{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+
+.operations{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    /* width: 30px;
+    height: 30px; */
+     /* background-color: chocolate; */
+    
+}
+
+.operations button{
+    width: 35px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 50px;
+     background-color: chocolate;
+     color: white;
+    display: flex;
+    text-align: center;
+}
+
+#minus{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 50px;
+     background-color: chocolate;
+     color: white;
+    display: flex;
+    text-align: center;
+}
+#mult{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 50px;
+     background-color: chocolate;
+     color: white;
+    display: flex;
+    text-align: center;
+}
+
+#divide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 50px;
+     background-color: chocolate;
+     color: white;
+    display: flex;
+    text-align: center;
+}
+
+#mod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 50px;
+     background-color: chocolate;
+     color: white;
+    display: flex;
+    text-align: center;
+}
+
+
+
+
+#total {
+    display: none;
+    width: 200px;
+    height: 200px;
+    background-color: chocolate;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+#first {
+     font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#second {
+     font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#op {
+    width: 70px;
+    height: 70px;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chocolate;
+    color: white;
+    border-radius: 15px;
+}
+
+#ass {
+    width: 70px;
+    height: 70px;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chocolate;
+    color: white;
+    border-radius: 15px;
+}
+

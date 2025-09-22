@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator in hmtl, css and javascript</title>
+    <link rel = "stylesheet" href="styles.css">
+    <script src="index.js" defer>
+
+    </script>
+</head>
+<body>
+    <div class = "container">
+        <div class = "numbers">
+            <div class = "num-card">
+                <p id = "first" >
+            First number
+                </p>
+            </div>
+
+        <div id = "op"> </div>
+        <div class = "num-card">
+             <p id = "second">
+                Second number
+            </p>
+        </div>
+
+        <div id = "ass">
+            =
+        </div>
+        <div id = "total">
+            <p>
+                Total
+            </p>
+        </div>
+    </div>
+
+
+        <div>
+            <p class = "prompt-text">
+                Select the operation you want to perform
+            </p>
+
+            <div class = "operations">
+                <button id = "add" onclick="add()">+</button>
+                <button id = "minus" onclick="minus()"> - </button>
+
+                <button id = "mult" onclick="mult()"> x </button>
+                <button id = "divide" onclick="divide()"> / </button>
+                <button id = "mod" onclick="mod()"> % </button>
+        </div>
+        </div>
+  </div>
+</body>
+</html>

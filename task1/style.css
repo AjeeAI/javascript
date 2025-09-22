@@ -1,0 +1,74 @@
+
+
+    
+.container{
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+}
+
+#btn {
+    display: flex;
+    width: 150px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+#text {
+     background-color: green;
+    display: flex;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+
+}
+
+@keyframes pulse {
+    0%{
+        scale: 1;
+        background-color: rgb(15, 126, 15);
+    }
+
+    50%{
+        scale: 1.1;
+        background-color: rgb(6, 90, 6);
+    }
+
+    100%{
+        scale: 1;
+        background-color: rgb(15, 126, 15);
+    }
+}
+
+.pulsey {
+    animation: pulse 4s infinite ;
+}
+
+.output{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(7, 54, 54);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
