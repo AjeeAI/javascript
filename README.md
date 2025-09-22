@@ -19,7 +19,7 @@
 
 ## Multiplication
 
-![ Preview of task 2](https://github.com/user-attachments/assets/4bdcbc9f-fa46-403f-866c-44632f152287)
+![ Preview of task 2](https://github.com/user-attachments/assets/83ba683e-b1b7-42b6-aa86-3aa643e409cd)
 
 ## Division
 

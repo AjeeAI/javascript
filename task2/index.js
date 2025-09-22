@@ -33,7 +33,7 @@ function mult(){
     document.getElementById("total").style.display = "flex"
     document.getElementById("first").innerHTML = var1;
     document.getElementById("second").innerHTML = var2;
-    document.getElementById("op").innerHTML = "-";
+    document.getElementById("op").innerHTML = "x";
     console.log(`The multiplication of ${var1} and ${var2} is ${total}`)
     // alert("Multiplication button pressed")
 }
