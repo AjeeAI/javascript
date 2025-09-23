@@ -130,3 +130,5 @@ if (score >= passingGrade){
     console.log(`Sorry, you scored ${score}%. You need ${passingGrade}% to pass.`)
 }
 
+
+

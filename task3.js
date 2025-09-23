@@ -113,7 +113,7 @@ function weatherAdvice(temperature, isRaining){
     console.log(advice);
 }
 
-weatherAdvice(82, false)
+weatherAdvice(30, true)
 console.log("")
 
 // ATM Simulation
@@ -151,3 +151,66 @@ function atm(balance, action, amount){
 }
 
 atm(1000, "withdraw", 600)
+
+
+// Personal Assistant
+
+function personalAssistant(time, weather, day_type){
+    if (time >= 5 && time <= 11){
+        if(day_type == "workday"){
+            console.log("Good morning! Get a healthy breakfast and prepare for work early to beat traffic.")
+        }
+        else if(day_type ==="weekend"){
+            console.log("Morning vibes! Perfect time for a light workout, reading, or a calm coffee.")
+        }
+        else{
+            console.log("Good morning! Take it slow, maybe plan a fun outing or family activity.")
+        }
+    }
+
+    else if (time >= 12 && time <= 16){
+        if(day_type == "workday"){
+            console.log("Stay focused on work but remember to take a short lunch break and stretch.")
+        }
+        else if(day_type ==="weekend"){
+            console.log("Perfect time for errands, hanging out with friends, or pursuing a hobby.")
+        }
+        else{
+            console.log("Enjoy some rest or plan something creative. Don’t waste the day!")
+        }
+    }
+
+    else if (time >= 17 && time <= 20){
+        if(day_type == "workday"){
+            console.log("You're done with work! Relax, have dinner, or hit the gym.")
+        }
+        else if(day_type ==="weekend"){
+            console.log("Evening chill time — maybe a movie night or a casual hangout.")
+        }
+        else{
+            console.log("Make the most of your evening — outdoor events or a nice dinner would be great.")
+        }
+    }
+
+    else{
+        if(day_type == "workday"){
+            console.log("Time to wind down. Avoid screens and prepare for tomorrow.")
+        }
+        else if(day_type ==="weekend"){
+            console.log("Perfect for stargazing, gaming, or a late-night snack.")
+        }
+        else{
+            console.log("You can stay up a bit later, but don't ruin your sleep cycle.")
+        }
+    }
+    
+    if (weather === "sunny"){
+        console.log("It's sunny outside — a great time for a walk, outdoor photos, or running errands.")
+    } else if(weather === "rainy"){
+        console.log("Take an umbrella! Great weather for staying in, watching a movie, or reading a book.")
+    } else {
+        console.log("Cloudy skies — good for being productive indoors or going out without worrying about heat.")
+    }
+}
+
+personalAssistant(6, "rainy", "weekend")
