@@ -17,6 +17,8 @@ function getGrade(score){
         console.log(`Score: ${score} -> Grade: F`);
     }
 
+    // alert("Button clicked")
+
 }
 
 getGrade(89);
@@ -113,7 +115,7 @@ function weatherAdvice(temperature, isRaining){
     console.log(advice);
 }
 
-weatherAdvice(30, true)
+weatherAdvice(35, true)
 console.log("")
 
 // ATM Simulation
@@ -176,7 +178,7 @@ function personalAssistant(time, weather, day_type){
             console.log("Perfect time for errands, hanging out with friends, or pursuing a hobby.")
         }
         else{
-            console.log("Enjoy some rest or plan something creative. Don’t waste the day!")
+            console.log("Enjoy some rest or plan something creative. Don't waste the day!")
         }
     }
 
@@ -204,13 +206,17 @@ function personalAssistant(time, weather, day_type){
         }
     }
     
-    if (weather === "sunny"){
-        console.log("It's sunny outside — a great time for a walk, outdoor photos, or running errands.")
-    } else if(weather === "rainy"){
-        console.log("Take an umbrella! Great weather for staying in, watching a movie, or reading a book.")
-    } else {
-        console.log("Cloudy skies — good for being productive indoors or going out without worrying about heat.")
-    }
+
+    let advice = weather === "sunny" ? "It's sunny outside — a great time for a walk, outdoor photos, or running errands." :  
+    weather === "rainy"? "Take an umbrella! Great weather for staying in, watching a movie, or reading a book.": "Cloudy skies — good for being productive indoors or going out without worrying about heat.";
+    console.log(advice)
+    // if (weather === "sunny"){
+    //     console.log("It's sunny outside — a great time for a walk, outdoor photos, or running errands.")
+    // } else if(weather === "rainy"){
+    //     console.log("Take an umbrella! Great weather for staying in, watching a movie, or reading a book.")
+    // } else {
+    //     console.log("Cloudy skies — good for being productive indoors or going out without worrying about heat.")
+    // }
 }
 
 personalAssistant(6, "rainy", "weekend")

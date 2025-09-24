@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: rgb(23, 82, 48);
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+}
+
