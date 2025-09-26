@@ -111,7 +111,7 @@ function weatherAdvice(temperature, isRaining){
         console.log("It's hot, stay hydrated!")
     }
 
-    advice = isRaining ? "Bring an Umbrella" : "No umbrella needed"
+    let advice = isRaining ? "Bring an Umbrella" : "No umbrella needed"
     console.log(advice);
 }
 
@@ -220,3 +220,12 @@ function personalAssistant(time, weather, day_type){
 }
 
 personalAssistant(6, "rainy", "weekend")
+
+
+function createFullName(first, last){
+    return `${first} ${last}`.trim()
+}
+
+let fullname = createFullName("Reuben", "Mulero")
+
+console.log(fullname)
