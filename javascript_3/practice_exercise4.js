@@ -46,3 +46,7 @@ console.log(studentWithHighestScore);
 // console.log(highestScore(grades));
 let studentWithLowestScore = lowestScore(grades);
 console.log(studentWithLowestScore);
+
+
+
+
