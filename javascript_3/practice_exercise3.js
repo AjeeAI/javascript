@@ -39,7 +39,7 @@ for (let i = 0; i < movies.length; i++){
 
    summary[movies[i]] = ratings[i];
    
-//    console.log(summary);
+
 }
 return summary;
 }

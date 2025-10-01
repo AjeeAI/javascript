@@ -2,7 +2,7 @@ let grades = [52, 89, 77, 80, 45, 90, 89, 92];
 
 function getAverage(grades){
     total = 0;
-    for (grade of grades){
+    for (let grade of grades){
         total += grade;
     }
 
