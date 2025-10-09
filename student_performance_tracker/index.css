@@ -1,0 +1,151 @@
+.container {
+    display: flex;
+    background-color: #F6F7F8;
+    gap: 20px;
+}
+
+.form {
+  width: 30%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.form label {
+  font-weight: 600;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 3px;
+}
+
+.form input {
+  width: 90%;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px 10px;
+  background-color: #f9fafb;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.form input:focus {
+  outline: none;
+  border-color: #308ce8;
+  background-color: #fff;
+}
+
+.score-div {
+  width: 90%;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 25px;
+}
+
+.score-div input {
+  flex: 1;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px 10px;
+  background-color: #f9fafb;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.score-div input:focus {
+  border-color: #308ce8;
+  background-color: #fff;
+}
+
+#btn {
+  width: 95%;
+  height: 45px;
+  border-radius: 8px;
+  background-color: #308ce8;
+  color: #fff;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#btn:hover {
+  background-color: #2a7ad4;
+}
+
+.table-container {
+    width: 100%;
+    height: 50%;
+    background-color: #ffffff;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+table {
+  /* border: 2px solid black; */
+  /* border-collapse:collapse; */
+    /* display: flex; */
+    width: 100%;
+    /* justify-content: center; */
+}
+table thead{
+  /* border: 2px solid black; */
+  
+}
+table thead tr{
+  
+  background-color: aliceblue;
+    height: 40px;
+    /* display: flex; */
+    justify-content: space-between;
+}
+
+tbody tr {
+  background-color: aliceblue;
+  text-align: center;
+  height: 40px;
+  
+}
+
+#search {
+  width: 90%;
+  height: 30px;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+tbody tr button{
+  width: 100px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+}
+
+tbody tr img{
+  margin: 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+tbody td {
+  /* border: 2px solid gray; */
+}
+

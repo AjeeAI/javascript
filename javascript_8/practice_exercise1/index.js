@@ -6,7 +6,7 @@ let images = [
     "images/image5.jpeg"
 ]
 
-let img_container = document.getElementById("img-holder");
+// let img_container = document.getElementById("img-holder");
 let back_image = document.getElementById("back-image");
 let counter = 0;
 // function changeImage(){
